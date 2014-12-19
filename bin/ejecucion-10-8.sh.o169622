@@ -1,0 +1,661 @@
+Tamaño: 100000000
+Número de iteraciones: 5
+Número de procesadores: 2
+Tiempo de addAll (Collection) - jdk : 324.98737ms
+Tiempo de addAll (Collection) - jdk : 226.6831ms
+Tiempo de addAll (Collection) - jdk : 227.74733ms
+Tiempo de addAll (Collection) - jdk : 226.11006ms
+Tiempo de addAll (Collection) - jdk : 228.53624ms
+
+Tiempo de addAll (Collection) - nuevo : 920.2858ms
+Tiempo de addAll (Collection) - nuevo : 905.8918ms
+Tiempo de addAll (Collection) - nuevo : 910.9176ms
+Tiempo de addAll (Collection) - nuevo : 911.7735ms
+Tiempo de addAll (Collection) - nuevo : 910.1942ms
+
+Tiempo de addAll (Collection) - trove : 28358.258ms
+Tiempo de addAll (Collection) - trove : 993.3917ms
+Tiempo de addAll (Collection) - trove : 24792.145ms
+Tiempo de addAll (Collection) - trove : 961.65094ms
+Tiempo de addAll (Collection) - trove : 951.11365ms
+
+Tiempo de addAll (int[]) - nuevo : 127.329704ms
+Tiempo de addAll (int[]) - nuevo : 136.71631ms
+Tiempo de addAll (int[]) - nuevo : 138.30759ms
+Tiempo de addAll (int[]) - nuevo : 138.71297ms
+Tiempo de addAll (int[]) - nuevo : 136.182ms
+
+Tiempo de addAll (int[]) - trove : 14073.968ms
+Tiempo de addAll (int[]) - trove : 554.1368ms
+Tiempo de addAll (int[]) - trove : 597.26074ms
+Tiempo de addAll (int[]) - trove : 590.72015ms
+Tiempo de addAll (int[]) - trove : 621.55133ms
+
+Tiempo de addAll (TIntArrayList - nuevo : 395.81168ms
+Tiempo de addAll (TIntArrayList - nuevo : 400.86273ms
+Tiempo de addAll (TIntArrayList - nuevo : 384.00867ms
+Tiempo de addAll (TIntArrayList - nuevo : 385.75247ms
+Tiempo de addAll (TIntArrayList - nuevo : 391.24594ms
+
+Tiempo de addAll (TIntArrayList - trove : 790.3376ms
+Tiempo de addAll (TIntArrayList - trove : 25086.605ms
+Tiempo de addAll (TIntArrayList - trove : 824.8987ms
+Tiempo de addAll (TIntArrayList - trove : 683.6519ms
+Tiempo de addAll (TIntArrayList - trove : 825.07587ms
+
+Tiempo de equals - jdk : 516.4502ms
+Tiempo de equals - jdk : 505.8584ms
+Tiempo de equals - jdk : 474.3441ms
+Tiempo de equals - jdk : 474.5792ms
+Tiempo de equals - jdk : 473.77988ms
+
+Tiempo de equals - nuevo : 51.854534ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 42.430645ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 42.40151ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 41.79672ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 41.93752ms
+Tamaño: 100000000
+
+Tiempo de equals - trove : 75.578316ms
+Tamaño: 100000000
+Tiempo de equals - trove : 72.95486ms
+Tamaño: 100000000
+Tiempo de equals - trove : 72.57977ms
+Tamaño: 100000000
+Tiempo de equals - trove : 72.78917ms
+Tamaño: 100000000
+Tiempo de equals - trove : 72.68632ms
+Tamaño: 100000000
+
+Tiempo de hashCode - jdk : 763.09827ms
+Tiempo de hashCode - jdk : 759.051ms
+Tiempo de hashCode - jdk : 737.71045ms
+Tiempo de hashCode - jdk : 737.9195ms
+Tiempo de hashCode - jdk : 736.1558ms
+
+Tiempo de hashCode - nuevo : 41.568657ms
+Tiempo de hashCode - nuevo : 32.15333ms
+Tiempo de hashCode - nuevo : 31.830963ms
+Tiempo de hashCode - nuevo : 31.67808ms
+Tiempo de hashCode - nuevo : 31.915108ms
+
+Tiempo de hashCode - trove : 61.867775ms
+Tiempo de hashCode - trove : 57.903397ms
+Tiempo de hashCode - trove : 57.898792ms
+Tiempo de hashCode - trove : 58.184216ms
+Tiempo de hashCode - trove : 57.907818ms
+
+Tiempo de indexOf - jdk : 224.91043ms
+Tiempo de indexOf - jdk : 220.67159ms
+Tiempo de indexOf - jdk : 229.76588ms
+Tiempo de indexOf - jdk : 229.80368ms
+Tiempo de indexOf - jdk : 229.69344ms
+
+Tiempo de indexOf - nuevo : 36.8793ms
+Tiempo de indexOf - nuevo : 29.8425ms
+Tiempo de indexOf - nuevo : 29.681936ms
+Tiempo de indexOf - nuevo : 29.534779ms
+Tiempo de indexOf - nuevo : 29.491922ms
+
+Tiempo de indexOf - trove : 54.907455ms
+Tiempo de indexOf - trove : 51.672504ms
+Tiempo de indexOf - trove : 51.809628ms
+Tiempo de indexOf - trove : 51.519707ms
+Tiempo de indexOf - trove : 51.508892ms
+
+Tiempo de lastIndexOf - jdk : 239.23277ms
+Tiempo de lastIndexOf - jdk : 234.6641ms
+Tiempo de lastIndexOf - jdk : 241.09438ms
+Tiempo de lastIndexOf - jdk : 241.09163ms
+Tiempo de lastIndexOf - jdk : 241.26022ms
+
+Tiempo de lastIndexOf - nuevo : 37.0ms
+Tiempo de lastIndexOf - nuevo : 30.361895ms
+Tiempo de lastIndexOf - nuevo : 29.984924ms
+Tiempo de lastIndexOf - nuevo : 29.9812ms
+Tiempo de lastIndexOf - nuevo : 30.062624ms
+
+Tiempo de lastIndexOf - trove : 55.520535ms
+Tiempo de lastIndexOf - trove : 52.106358ms
+Tiempo de lastIndexOf - trove : 52.643024ms
+Tiempo de lastIndexOf - trove : 52.26064ms
+Tiempo de lastIndexOf - trove : 52.23566ms
+
+Tiempo de max - nuevo : 35.28342ms
+Tiempo de max - nuevo : 29.391424ms
+Tiempo de max - nuevo : 29.321447ms
+Tiempo de max - nuevo : 29.389732ms
+Tiempo de max - nuevo : 29.836391ms
+
+Tiempo de max - trove : 54.75824ms
+Tiempo de max - trove : 52.026466ms
+Tiempo de max - trove : 51.55191ms
+Tiempo de max - trove : 51.51338ms
+Tiempo de max - trove : 51.898823ms
+
+Tiempo de min - nuevo : 35.84754ms
+Tiempo de min - nuevo : 29.427307ms
+Tiempo de min - nuevo : 31.360737ms
+Tiempo de min - nuevo : 30.786053ms
+Tiempo de min - nuevo : 30.831156ms
+
+Tiempo de min - trove : 54.752247ms
+Tiempo de min - trove : 51.86229ms
+Tiempo de min - trove : 54.409595ms
+Tiempo de min - trove : 54.733448ms
+Tiempo de min - trove : 54.408897ms
+
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.010797ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001139ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001048ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001022ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001007ms
+
+Tamaño: 100000000
+Tiempo de remove - nuevo : 39.69853ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 30.591263ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 31.027597ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 30.78062ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 30.792383ms
+
+Tamaño: 100000000
+Tiempo de remove - trove : 55.179115ms
+Tamaño: 100000000
+Tiempo de remove - trove : 51.709877ms
+Tamaño: 100000000
+Tiempo de remove - trove : 51.885906ms
+Tamaño: 100000000
+Tiempo de remove - trove : 51.536137ms
+Tamaño: 100000000
+Tiempo de remove - trove : 51.840546ms
+
+Tiempo de reverse - nuevo : 341.64874ms
+Tiempo de reverse - nuevo : 334.71744ms
+Tiempo de reverse - nuevo : 246.80777ms
+Tiempo de reverse - nuevo : 24814.156ms
+Tiempo de reverse - nuevo : 244.76675ms
+
+Tiempo de reverse - trove : 64.218864ms
+Tiempo de reverse - trove : 63.313965ms
+Tiempo de reverse - trove : 64.31413ms
+Tiempo de reverse - trove : 64.63624ms
+Tiempo de reverse - trove : 64.27542ms
+
+Tiempo de subList - jdk : 0.313224ms
+Tiempo de subList - jdk : 0.001387ms
+Tiempo de subList - jdk : 0.001276ms
+Tiempo de subList - jdk : 0.001244ms
+Tiempo de subList - jdk : 0.001302ms
+
+Tiempo de subList - nuevo : 434.27753ms
+Tiempo de subList - nuevo : 390.89725ms
+Tiempo de subList - nuevo : 407.741ms
+Tiempo de subList - nuevo : 409.62405ms
+Tiempo de subList - nuevo : 405.03015ms
+
+Tiempo de subList - trove : 362.98227ms
+Tiempo de subList - trove : 515.5677ms
+Tiempo de subList - trove : 365.22223ms
+Tiempo de subList - trove : 375.8985ms
+Tiempo de subList - trove : 368.58618ms
+
+
+Tiempo de sum - nuevo : 38.75031ms
+Tiempo de sum - nuevo : 31.891245ms
+Tiempo de sum - nuevo : 31.93956ms
+Tiempo de sum - nuevo : 31.37227ms
+Tiempo de sum - nuevo : 31.777758ms
+
+Tiempo de sum - trove : 54.834137ms
+Tiempo de sum - trove : 51.092594ms
+Tiempo de sum - trove : 51.238853ms
+Tiempo de sum - trove : 51.569454ms
+Tiempo de sum - trove : 51.25585ms
+
+Tiempo de toArray - jdk : 227.58455ms
+Tiempo de toArray - jdk : 107.217026ms
+Tiempo de toArray - jdk : 114.25178ms
+Tiempo de toArray - jdk : 109.91691ms
+Tiempo de toArray - jdk : 224.33582ms
+
+Tiempo de toArray - nuevo : 87.33839ms
+Tiempo de toArray - nuevo : 90.6769ms
+Tiempo de toArray - nuevo : 83.36568ms
+Tiempo de toArray - nuevo : 239.22598ms
+Tiempo de toArray - nuevo : 85.6082ms
+
+Tiempo de toArray - trove : 118.5941ms
+Tiempo de toArray - trove : 107.08373ms
+Tiempo de toArray - trove : 220.1226ms
+Tiempo de toArray - trove : 108.07602ms
+Tiempo de toArray - trove : 116.20288ms
+
+Tamaño : 100000
+Número de procesadores : 2
+Número de iteraciones: 5
+Tiempo de containsAll (int[]) - nuevo : 1437.23ms
+Tiempo de containsAll (int[]) - nuevo : 1434.13ms
+Tiempo de containsAll (int[]) - nuevo : 1426.9374ms
+Tiempo de containsAll (int[]) - nuevo : 1427.0591ms
+Tiempo de containsAll (int[]) - nuevo : 1427.1365ms
+
+Tiempo de containsAll (int[]) - trove : 1900.0211ms
+Tiempo de containsAll (int[]) - trove : 1903.5486ms
+Tiempo de containsAll (int[]) - trove : 1900.2651ms
+Tiempo de containsAll (int[]) - trove : 1900.4008ms
+Tiempo de containsAll (int[]) - trove : 1898.9482ms
+
+Tiempo de containsAll (Collection) - nuevo : 1434.8772ms
+Tiempo de containsAll (Collection) - nuevo : 1434.4647ms
+Tiempo de containsAll (Collection) - nuevo : 1427.8494ms
+Tiempo de containsAll (Collection) - nuevo : 1429.0674ms
+Tiempo de containsAll (Collection) - nuevo : 1427.8468ms
+
+Tiempo de containsAll (Collection) - trove : 1904.6775ms
+Tiempo de containsAll (Collection) - trove : 1900.0591ms
+Tiempo de containsAll (Collection) - trove : 2117.6465ms
+Tiempo de containsAll (Collection) - trove : 2117.3013ms
+Tiempo de containsAll (Collection) - trove : 2117.6445ms
+
+Tiempo de removeAll - jdk : 5854.2876ms
+Tiempo de removeAll - jdk : 5846.8364ms
+Tiempo de removeAll - jdk : 5972.433ms
+Tiempo de removeAll - jdk : 5972.262ms
+Tiempo de removeAll - jdk : 5973.477ms
+
+Tiempo de removeAll - nuevo : 4815.5654ms
+Tiempo de removeAll - nuevo : 4824.1685ms
+Tiempo de removeAll - nuevo : 4519.4287ms
+Tiempo de removeAll - nuevo : 4516.9263ms
+Tiempo de removeAll - nuevo : 4518.6987ms
+
+Tiempo de removeAll - trove : 1060.9432ms
+Tiempo de removeAll - trove : 974.9376ms
+Tiempo de removeAll - trove : 975.0319ms
+Tiempo de removeAll - trove : 974.9663ms
+Tiempo de removeAll - trove : 974.61304ms
+
+Tiempo de retainAll - jdk : 5970.1846ms
+Tiempo de retainAll - jdk : 5969.558ms
+Tiempo de retainAll - jdk : 5972.7866ms
+Tiempo de retainAll - jdk : 5969.842ms
+Tiempo de retainAll - jdk : 5969.354ms
+
+Tiempo de retainAll - nuevo : 4605.2686ms
+Tiempo de retainAll - nuevo : 4607.043ms
+Tiempo de retainAll - nuevo : 4465.218ms
+Tiempo de retainAll - nuevo : 4470.7593ms
+Tiempo de retainAll - nuevo : 4464.4004ms
+
+Tiempo de retainAll - trove : 6427.434ms
+Tiempo de retainAll - trove : 6432.8345ms
+Tiempo de retainAll - trove : 6185.935ms
+Tiempo de retainAll - trove : 6185.2954ms
+Tiempo de retainAll - trove : 6186.1777ms
+
+Tiempo de shuffle - nuevo : 12437.578ms
+Tiempo de shuffle - nuevo : 11461.789ms
+Tiempo de shuffle - nuevo : 11482.882ms
+Tiempo de shuffle - nuevo : 12397.015ms
+Tiempo de shuffle - nuevo : 11255.405ms
+
+Tiempo de shuffle - trove : 5660.813ms
+Tiempo de shuffle - trove : 5794.933ms
+Tiempo de shuffle - trove : 6331.1313ms
+Tiempo de shuffle - trove : 6733.984ms
+Tiempo de shuffle - trove : 5812.427ms
+
+Tiempo de toString - nuevo : 110353.21ms
+Tiempo de toString - nuevo : 98084.29ms
+Tiempo de toString - nuevo : 96980.695ms
+Tiempo de toString - nuevo : 110662.6ms
+Tiempo de toString - nuevo : 137940.36ms
+
+Tiempo de toString - trove : 55633.56ms
+Tiempo de toString - trove : 54954.676ms
+Tiempo de toString - trove : 54699.44ms
+Tiempo de toString - trove : 54548.58ms
+Tiempo de toString - trove : 55096.508ms
+
+Tamaño: 100000000
+Número de iteraciones: 5
+Número de procesadores: 4
+Tiempo de addAll (Collection) - jdk : 2252.8115ms
+Tiempo de addAll (Collection) - jdk : 177.97604ms
+Tiempo de addAll (Collection) - jdk : 189.68604ms
+Tiempo de addAll (Collection) - jdk : 2338.468ms
+Tiempo de addAll (Collection) - jdk : 179.39432ms
+
+Tiempo de addAll (Collection) - nuevo : 2299.6665ms
+Tiempo de addAll (Collection) - nuevo : 806.63513ms
+Tiempo de addAll (Collection) - nuevo : 2378.0078ms
+Tiempo de addAll (Collection) - nuevo : 804.0261ms
+Tiempo de addAll (Collection) - nuevo : 2371.9927ms
+
+Tiempo de addAll (Collection) - trove : 2629.24ms
+Tiempo de addAll (Collection) - trove : 2361.2153ms
+Tiempo de addAll (Collection) - trove : 2364.215ms
+Tiempo de addAll (Collection) - trove : 54313.684ms
+Tiempo de addAll (Collection) - trove : 1181.314ms
+
+Tiempo de addAll (int[]) - nuevo : 91.85205ms
+Tiempo de addAll (int[]) - nuevo : 99.798164ms
+Tiempo de addAll (int[]) - nuevo : 96.77246ms
+Tiempo de addAll (int[]) - nuevo : 351.03653ms
+Tiempo de addAll (int[]) - nuevo : 95.03431ms
+
+Tiempo de addAll (int[]) - trove : 770.0836ms
+Tiempo de addAll (int[]) - trove : 773.1853ms
+Tiempo de addAll (int[]) - trove : 826.647ms
+Tiempo de addAll (int[]) - trove : 783.92755ms
+Tiempo de addAll (int[]) - trove : 746.4438ms
+
+Tiempo de addAll (TIntArrayList - nuevo : 201.1469ms
+Tiempo de addAll (TIntArrayList - nuevo : 448.08124ms
+Tiempo de addAll (TIntArrayList - nuevo : 204.91957ms
+Tiempo de addAll (TIntArrayList - nuevo : 497.2468ms
+Tiempo de addAll (TIntArrayList - nuevo : 210.20728ms
+
+Tiempo de addAll (TIntArrayList - trove : 911.3629ms
+Tiempo de addAll (TIntArrayList - trove : 1034.5223ms
+Tiempo de addAll (TIntArrayList - trove : 937.85016ms
+Tiempo de addAll (TIntArrayList - trove : 930.2294ms
+Tiempo de addAll (TIntArrayList - trove : 1018.5669ms
+
+Tiempo de equals - jdk : 470.88815ms
+Tiempo de equals - jdk : 471.0739ms
+Tiempo de equals - jdk : 472.2049ms
+Tiempo de equals - jdk : 470.90436ms
+Tiempo de equals - jdk : 471.23102ms
+
+Tiempo de equals - nuevo : 32.062614ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 26.041431ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 25.95185ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 25.914251ms
+Tamaño: 100000000
+Tiempo de equals - nuevo : 26.075344ms
+Tamaño: 100000000
+
+Tiempo de equals - trove : 68.07643ms
+Tamaño: 100000000
+Tiempo de equals - trove : 68.289856ms
+Tamaño: 100000000
+Tiempo de equals - trove : 67.69364ms
+Tamaño: 100000000
+Tiempo de equals - trove : 68.00027ms
+Tamaño: 100000000
+Tiempo de equals - trove : 67.68774ms
+Tamaño: 100000000
+
+Tiempo de hashCode - jdk : 727.7742ms
+Tiempo de hashCode - jdk : 730.90967ms
+Tiempo de hashCode - jdk : 728.07477ms
+Tiempo de hashCode - jdk : 728.1789ms
+Tiempo de hashCode - jdk : 727.7156ms
+
+Tiempo de hashCode - nuevo : 17.06272ms
+Tiempo de hashCode - nuevo : 16.83902ms
+Tiempo de hashCode - nuevo : 17.150156ms
+Tiempo de hashCode - nuevo : 17.310457ms
+Tiempo de hashCode - nuevo : 18.794573ms
+
+Tiempo de hashCode - trove : 57.38528ms
+Tiempo de hashCode - trove : 56.722237ms
+Tiempo de hashCode - trove : 57.05768ms
+Tiempo de hashCode - trove : 56.78414ms
+Tiempo de hashCode - trove : 56.686317ms
+
+Tiempo de indexOf - jdk : 235.06137ms
+Tiempo de indexOf - jdk : 235.40585ms
+Tiempo de indexOf - jdk : 235.0023ms
+Tiempo de indexOf - jdk : 235.12013ms
+Tiempo de indexOf - jdk : 234.97499ms
+
+Tiempo de indexOf - nuevo : 16.164732ms
+Tiempo de indexOf - nuevo : 15.918928ms
+Tiempo de indexOf - nuevo : 15.762148ms
+Tiempo de indexOf - nuevo : 15.944029ms
+Tiempo de indexOf - nuevo : 17.035427ms
+
+Tiempo de indexOf - trove : 49.91512ms
+Tiempo de indexOf - trove : 50.50331ms
+Tiempo de indexOf - trove : 50.36101ms
+Tiempo de indexOf - trove : 50.01785ms
+Tiempo de indexOf - trove : 50.40516ms
+
+Tiempo de lastIndexOf - jdk : 222.94623ms
+Tiempo de lastIndexOf - jdk : 223.19685ms
+Tiempo de lastIndexOf - jdk : 223.00755ms
+Tiempo de lastIndexOf - jdk : 223.45654ms
+Tiempo de lastIndexOf - jdk : 222.73822ms
+
+Tiempo de lastIndexOf - nuevo : 17.113554ms
+Tiempo de lastIndexOf - nuevo : 16.468704ms
+Tiempo de lastIndexOf - nuevo : 16.507463ms
+Tiempo de lastIndexOf - nuevo : 16.494108ms
+Tiempo de lastIndexOf - nuevo : 16.646189ms
+
+Tiempo de lastIndexOf - trove : 51.78167ms
+Tiempo de lastIndexOf - trove : 51.204144ms
+Tiempo de lastIndexOf - trove : 51.071095ms
+Tiempo de lastIndexOf - trove : 51.49979ms
+Tiempo de lastIndexOf - trove : 51.14241ms
+
+Tiempo de max - nuevo : 15.888316ms
+Tiempo de max - nuevo : 15.954232ms
+Tiempo de max - nuevo : 16.3545ms
+Tiempo de max - nuevo : 15.72323ms
+Tiempo de max - nuevo : 16.034515ms
+
+Tiempo de max - trove : 50.153473ms
+Tiempo de max - trove : 50.415215ms
+Tiempo de max - trove : 50.0632ms
+Tiempo de max - trove : 50.044952ms
+Tiempo de max - trove : 50.40402ms
+
+Tiempo de min - nuevo : 16.49351ms
+Tiempo de min - nuevo : 16.747404ms
+Tiempo de min - nuevo : 16.64436ms
+Tiempo de min - nuevo : 16.529078ms
+Tiempo de min - nuevo : 16.946772ms
+
+Tiempo de min - trove : 53.319454ms
+Tiempo de min - trove : 53.08206ms
+Tiempo de min - trove : 53.39205ms
+Tiempo de min - trove : 53.080063ms
+Tiempo de min - trove : 53.40667ms
+
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.002083ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001019ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001052ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001104ms
+Tamaño: 100000000
+Tiempo de remove - jdk : 0.001043ms
+
+Tamaño: 100000000
+Tiempo de remove - nuevo : 16.853252ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 17.045605ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 17.051996ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 16.55268ms
+Tamaño: 100000000
+Tiempo de remove - nuevo : 17.053947ms
+
+Tamaño: 100000000
+Tiempo de remove - trove : 50.666496ms
+Tamaño: 100000000
+Tiempo de remove - trove : 50.00144ms
+Tamaño: 100000000
+Tiempo de remove - trove : 50.35136ms
+Tamaño: 100000000
+Tiempo de remove - trove : 49.991646ms
+Tamaño: 100000000
+Tiempo de remove - trove : 49.983093ms
+
+Tiempo de reverse - nuevo : 72.024704ms
+Tiempo de reverse - nuevo : 266.38824ms
+Tiempo de reverse - nuevo : 62.931824ms
+Tiempo de reverse - nuevo : 71.390594ms
+Tiempo de reverse - nuevo : 71.42693ms
+
+Tiempo de reverse - trove : 62.699654ms
+Tiempo de reverse - trove : 64.65353ms
+Tiempo de reverse - trove : 64.5609ms
+Tiempo de reverse - trove : 64.504814ms
+Tiempo de reverse - trove : 64.66297ms
+
+Tiempo de subList - jdk : 0.003963ms
+Tiempo de subList - jdk : 0.00132ms
+Tiempo de subList - jdk : 0.00124ms
+Tiempo de subList - jdk : 0.001247ms
+Tiempo de subList - jdk : 0.001264ms
+
+Tiempo de subList - nuevo : 473.19458ms
+Tiempo de subList - nuevo : 194.073ms
+Tiempo de subList - nuevo : 466.99225ms
+Tiempo de subList - nuevo : 443.7207ms
+Tiempo de subList - nuevo : 194.73428ms
+
+Tiempo de subList - trove : 705.0912ms
+Tiempo de subList - trove : 362.79156ms
+Tiempo de subList - trove : 380.17148ms
+Tiempo de subList - trove : 366.20502ms
+Tiempo de subList - trove : 635.972ms
+
+
+Tiempo de sum - nuevo : 19.345985ms
+Tiempo de sum - nuevo : 16.884459ms
+Tiempo de sum - nuevo : 17.119993ms
+Tiempo de sum - nuevo : 16.584993ms
+Tiempo de sum - nuevo : 16.693485ms
+
+Tiempo de sum - trove : 51.510487ms
+Tiempo de sum - trove : 51.723633ms
+Tiempo de sum - trove : 51.400726ms
+Tiempo de sum - trove : 51.721127ms
+Tiempo de sum - trove : 51.408535ms
+
+Tiempo de toArray - jdk : 108.88277ms
+Tiempo de toArray - jdk : 116.9316ms
+Tiempo de toArray - jdk : 110.40481ms
+Tiempo de toArray - jdk : 365.5615ms
+Tiempo de toArray - jdk : 108.94363ms
+
+Tiempo de toArray - nuevo : 79.714424ms
+Tiempo de toArray - nuevo : 84.75179ms
+Tiempo de toArray - nuevo : 257.89447ms
+Tiempo de toArray - nuevo : 88.064575ms
+Tiempo de toArray - nuevo : 75.82381ms
+
+Tiempo de toArray - trove : 108.06344ms
+Tiempo de toArray - trove : 277.67877ms
+Tiempo de toArray - trove : 107.6143ms
+Tiempo de toArray - trove : 119.05431ms
+Tiempo de toArray - trove : 107.24196ms
+
+Tamaño : 100000
+Número de procesadores : 4
+Número de iteraciones: 5
+Tiempo de containsAll (int[]) - nuevo : 838.96027ms
+Tiempo de containsAll (int[]) - nuevo : 844.6585ms
+Tiempo de containsAll (int[]) - nuevo : 837.88ms
+Tiempo de containsAll (int[]) - nuevo : 841.8462ms
+Tiempo de containsAll (int[]) - nuevo : 840.03125ms
+
+Tiempo de containsAll (int[]) - trove : 1899.0199ms
+Tiempo de containsAll (int[]) - trove : 1899.1763ms
+Tiempo de containsAll (int[]) - trove : 1899.2318ms
+Tiempo de containsAll (int[]) - trove : 1899.206ms
+Tiempo de containsAll (int[]) - trove : 1899.5159ms
+
+Tiempo de containsAll (Collection) - nuevo : 835.267ms
+Tiempo de containsAll (Collection) - nuevo : 836.3562ms
+Tiempo de containsAll (Collection) - nuevo : 835.70386ms
+Tiempo de containsAll (Collection) - nuevo : 835.26636ms
+Tiempo de containsAll (Collection) - nuevo : 835.85333ms
+
+Tiempo de containsAll (Collection) - trove : 2115.0334ms
+Tiempo de containsAll (Collection) - trove : 2115.8164ms
+Tiempo de containsAll (Collection) - trove : 2116.1362ms
+Tiempo de containsAll (Collection) - trove : 2115.4463ms
+Tiempo de containsAll (Collection) - trove : 2116.0212ms
+
+Tiempo de removeAll - jdk : 6153.774ms
+Tiempo de removeAll - jdk : 6153.8545ms
+Tiempo de removeAll - jdk : 6153.254ms
+Tiempo de removeAll - jdk : 6153.652ms
+Tiempo de removeAll - jdk : 6152.4697ms
+
+Tiempo de removeAll - nuevo : 2702.7415ms
+Tiempo de removeAll - nuevo : 2716.569ms
+Tiempo de removeAll - nuevo : 2719.6821ms
+Tiempo de removeAll - nuevo : 2721.5737ms
+Tiempo de removeAll - nuevo : 2715.2769ms
+
+Tiempo de removeAll - trove : 905.2524ms
+Tiempo de removeAll - trove : 904.61145ms
+Tiempo de removeAll - trove : 904.51306ms
+Tiempo de removeAll - trove : 904.68744ms
+Tiempo de removeAll - trove : 904.9272ms
+
+Tiempo de retainAll - jdk : 6148.55ms
+Tiempo de retainAll - jdk : 6147.944ms
+Tiempo de retainAll - jdk : 6147.5234ms
+Tiempo de retainAll - jdk : 6148.185ms
+Tiempo de retainAll - jdk : 6149.0806ms
+
+Tiempo de retainAll - nuevo : 2688.503ms
+Tiempo de retainAll - nuevo : 2695.0603ms
+Tiempo de retainAll - nuevo : 2698.5571ms
+Tiempo de retainAll - nuevo : 2695.896ms
+Tiempo de retainAll - nuevo : 2701.3345ms
+
+Tiempo de retainAll - trove : 6327.9766ms
+Tiempo de retainAll - trove : 6328.6562ms
+Tiempo de retainAll - trove : 6327.441ms
+Tiempo de retainAll - trove : 6327.943ms
+Tiempo de retainAll - trove : 6329.289ms
+
+Tiempo de shuffle - nuevo : 14350.249ms
+Tiempo de shuffle - nuevo : 14240.801ms
+Tiempo de shuffle - nuevo : 14028.193ms
+Tiempo de shuffle - nuevo : 13688.029ms
+Tiempo de shuffle - nuevo : 13870.3955ms
+
+Tiempo de shuffle - trove : 6180.919ms
+Tiempo de shuffle - trove : 8326.977ms
+Tiempo de shuffle - trove : 6530.254ms
+Tiempo de shuffle - trove : 6301.6196ms
+Tiempo de shuffle - trove : 5815.856ms
+
+-----------------------------------------------------------
+ JOB_NAME: ejecucion-10-8.sh
+ JOB_ID: 169622
+ EXIT_STATUS: 138
+ NSLOTS: 16
+ RESOURCES: num_gpu=0,s_rt=1800,mem_free=1M,exclusive=true
+ Max. Memory Usage: 19.142G
+ Execution Time: 1801 seconds
+-----------------------------------------------------------

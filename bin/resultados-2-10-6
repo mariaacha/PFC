@@ -1,0 +1,307 @@
+Tamaño: 1000000
+Número de iteraciones: 5
+Número de procesadores: 2
+Tiempo de addAll (Collection) - jdk : 25ms
+Tiempo de addAll (Collection) - jdk : 39ms
+Tiempo de addAll (Collection) - jdk : 15ms
+Tiempo de addAll (Collection) - jdk : 14ms
+Tiempo de addAll (Collection) - jdk : 14ms
+
+Tiempo de addAll (Collection) - nuevo : 81ms
+Tiempo de addAll (Collection) - nuevo : 36ms
+Tiempo de addAll (Collection) - nuevo : 36ms
+Tiempo de addAll (Collection) - nuevo : 40ms
+Tiempo de addAll (Collection) - nuevo : 29ms
+
+Tiempo de addAll (Collection) - trove : 184ms
+Tiempo de addAll (Collection) - trove : 103ms
+Tiempo de addAll (Collection) - trove : 154ms
+Tiempo de addAll (Collection) - trove : 478ms
+Tiempo de addAll (Collection) - trove : 105ms
+
+Tiempo de addAll (int[]) - nuevo : 15ms
+Tiempo de addAll (int[]) - nuevo : 15ms
+Tiempo de addAll (int[]) - nuevo : 22ms
+Tiempo de addAll (int[]) - nuevo : 7ms
+Tiempo de addAll (int[]) - nuevo : 8ms
+
+Tiempo de addAll (int[]) - trove : 80ms
+Tiempo de addAll (int[]) - trove : 86ms
+Tiempo de addAll (int[]) - trove : 37ms
+Tiempo de addAll (int[]) - trove : 55ms
+Tiempo de addAll (int[]) - trove : 46ms
+
+Tiempo de addAll (TIntArrayList - nuevo : 1ms
+Tiempo de addAll (TIntArrayList - nuevo : 1ms
+Tiempo de addAll (TIntArrayList - nuevo : 1ms
+Tiempo de addAll (TIntArrayList - nuevo : 1ms
+Tiempo de addAll (TIntArrayList - nuevo : 0ms
+
+Tiempo de addAll (TIntArrayList - trove : 4ms
+Tiempo de addAll (TIntArrayList - trove : 1ms
+Tiempo de addAll (TIntArrayList - trove : 0ms
+Tiempo de addAll (TIntArrayList - trove : 0ms
+Tiempo de addAll (TIntArrayList - trove : 0ms
+
+Tiempo de equals - jdk : 149ms
+Tiempo de equals - jdk : 132ms
+Tiempo de equals - jdk : 106ms
+Tiempo de equals - jdk : 123ms
+Tiempo de equals - jdk : 116ms
+
+Tiempo de equals - nuevo : 3ms
+Tiempo de equals - nuevo : 1ms
+Tiempo de equals - nuevo : 1ms
+Tiempo de equals - nuevo : 0ms
+Tiempo de equals - nuevo : 0ms
+
+Tiempo de equals - trove : 0ms
+Tiempo de equals - trove : 0ms
+Tiempo de equals - trove : 0ms
+Tiempo de equals - trove : 0ms
+Tiempo de equals - trove : 0ms
+
+Tiempo de hashCode - jdk : 81ms
+Tiempo de hashCode - jdk : 96ms
+Tiempo de hashCode - jdk : 58ms
+Tiempo de hashCode - jdk : 73ms
+Tiempo de hashCode - jdk : 67ms
+
+Tiempo de hashCode - nuevo : 12ms
+Tiempo de hashCode - nuevo : 1ms
+Tiempo de hashCode - nuevo : 1ms
+Tiempo de hashCode - nuevo : 0ms
+Tiempo de hashCode - nuevo : 0ms
+
+Tiempo de hashCode - trove : 0ms
+Tiempo de hashCode - trove : 0ms
+Tiempo de hashCode - trove : 0ms
+Tiempo de hashCode - trove : 0ms
+Tiempo de hashCode - trove : 0ms
+
+Tiempo de indexOf - jdk : 37ms
+Tiempo de indexOf - jdk : 46ms
+Tiempo de indexOf - jdk : 50ms
+Tiempo de indexOf - jdk : 53ms
+Tiempo de indexOf - jdk : 46ms
+
+Tiempo de indexOf - nuevo : 8ms
+Tiempo de indexOf - nuevo : 8ms
+Tiempo de indexOf - nuevo : 6ms
+Tiempo de indexOf - nuevo : 27ms
+Tiempo de indexOf - nuevo : 3ms
+
+Tiempo de indexOf - trove : 0ms
+Tiempo de indexOf - trove : 0ms
+Tiempo de indexOf - trove : 0ms
+Tiempo de indexOf - trove : 0ms
+Tiempo de indexOf - trove : 0ms
+
+Tiempo de lastIndexOf - jdk : 69ms
+Tiempo de lastIndexOf - jdk : 72ms
+Tiempo de lastIndexOf - jdk : 60ms
+Tiempo de lastIndexOf - jdk : 51ms
+Tiempo de lastIndexOf - jdk : 44ms
+
+Tiempo de lastIndexOf - nuevo : 2ms
+Tiempo de lastIndexOf - nuevo : 0ms
+Tiempo de lastIndexOf - nuevo : 3ms
+Tiempo de lastIndexOf - nuevo : 1ms
+Tiempo de lastIndexOf - nuevo : 6ms
+
+Tiempo de lastIndexOf - trove : 0ms
+Tiempo de lastIndexOf - trove : 0ms
+Tiempo de lastIndexOf - trove : 0ms
+Tiempo de lastIndexOf - trove : 0ms
+Tiempo de lastIndexOf - trove : 0ms
+
+Tiempo de max - nuevo : 9ms
+Tiempo de max - nuevo : 3ms
+Tiempo de max - nuevo : 4ms
+Tiempo de max - nuevo : 1ms
+Tiempo de max - nuevo : 4ms
+
+Tiempo de max - trove : 0ms
+Tiempo de max - trove : 0ms
+Tiempo de max - trove : 9ms
+Tiempo de max - trove : 0ms
+Tiempo de max - trove : 0ms
+
+Tiempo de min - nuevo : 6ms
+Tiempo de min - nuevo : 7ms
+Tiempo de min - nuevo : 3ms
+Tiempo de min - nuevo : 1ms
+Tiempo de min - nuevo : 2ms
+
+Tiempo de min - trove : 0ms
+Tiempo de min - trove : 0ms
+Tiempo de min - trove : 0ms
+Tiempo de min - trove : 0ms
+Tiempo de min - trove : 0ms
+
+Tiempo de remove - jdk : 0ms
+Tiempo de remove - jdk : 0ms
+Tiempo de remove - jdk : 0ms
+Tiempo de remove - jdk : 0ms
+Tiempo de remove - jdk : 0ms
+
+Tiempo de remove - nuevo : 3ms
+Tiempo de remove - nuevo : 6ms
+Tiempo de remove - nuevo : 1ms
+Tiempo de remove - nuevo : 1ms
+Tiempo de remove - nuevo : 1ms
+
+Tiempo de remove - trove : 0ms
+Tiempo de remove - trove : 0ms
+Tiempo de remove - trove : 0ms
+Tiempo de remove - trove : 0ms
+Tiempo de remove - trove : 0ms
+
+Tiempo de reverse - nuevo : 5ms
+Tiempo de reverse - nuevo : 42ms
+Tiempo de reverse - nuevo : 11ms
+Tiempo de reverse - nuevo : 32ms
+Tiempo de reverse - nuevo : 20ms
+
+Tiempo de reverse - trove : 0ms
+Tiempo de reverse - trove : 12ms
+Tiempo de reverse - trove : 17ms
+Tiempo de reverse - trove : 3ms
+Tiempo de reverse - trove : 5ms
+
+Tiempo de shuffle - nuevo : 241ms
+Tiempo de shuffle - nuevo : 321ms
+Tiempo de shuffle - nuevo : 275ms
+Tiempo de shuffle - nuevo : 214ms
+Tiempo de shuffle - nuevo : 199ms
+
+Tiempo de shuffle - trove : 274ms
+Tiempo de shuffle - trove : 253ms
+Tiempo de shuffle - trove : 238ms
+Tiempo de shuffle - trove : 344ms
+Tiempo de shuffle - trove : 292ms
+
+Tiempo de subList - jdk : 0ms
+Tiempo de subList - jdk : 0ms
+Tiempo de subList - jdk : 0ms
+Tiempo de subList - jdk : 0ms
+Tiempo de subList - jdk : 0ms
+
+Tiempo de subList - nuevo : 78ms
+Tiempo de subList - nuevo : 33ms
+Tiempo de subList - nuevo : 415ms
+Tiempo de subList - nuevo : 20ms
+Tiempo de subList - nuevo : 22ms
+
+Tiempo de subList - trove : 50ms
+Tiempo de subList - trove : 70ms
+Tiempo de subList - trove : 28ms
+Tiempo de subList - trove : 32ms
+Tiempo de subList - trove : 37ms
+
+
+Tiempo de sum - nuevo : 13ms
+Tiempo de sum - nuevo : 7ms
+Tiempo de sum - nuevo : 3ms
+Tiempo de sum - nuevo : 4ms
+Tiempo de sum - nuevo : 3ms
+
+Tiempo de sum - trove : 11ms
+Tiempo de sum - trove : 15ms
+Tiempo de sum - trove : 4ms
+Tiempo de sum - trove : 4ms
+Tiempo de sum - trove : 3ms
+
+Tiempo de toArray - jdk : 9ms
+Tiempo de toArray - jdk : 10ms
+Tiempo de toArray - jdk : 8ms
+Tiempo de toArray - jdk : 7ms
+Tiempo de toArray - jdk : 16ms
+
+Tiempo de toArray - nuevo : 17ms
+Tiempo de toArray - nuevo : 19ms
+Tiempo de toArray - nuevo : 14ms
+Tiempo de toArray - nuevo : 17ms
+Tiempo de toArray - nuevo : 17ms
+
+Tiempo de toArray - trove : 7ms
+Tiempo de toArray - trove : 10ms
+Tiempo de toArray - trove : 16ms
+Tiempo de toArray - trove : 8ms
+Tiempo de toArray - trove : 50ms
+
+Tiempo de toString - nuevo : 1448ms
+Tiempo de toString - nuevo : 1082ms
+Tiempo de toString - nuevo : 1684ms
+Tiempo de toString - nuevo : 1171ms
+Tiempo de toString - nuevo : 1228ms
+
+Tiempo de toString - trove : 465ms
+Tiempo de toString - trove : 437ms
+Tiempo de toString - trove : 565ms
+Tiempo de toString - trove : 944ms
+Tiempo de toString - trove : 447ms
+
+Tamaño : 1000
+Número de procesadores : 2
+Número de iteraciones: 5
+Tiempo de containsAll (int[]) - nuevo : 5ms
+Tiempo de containsAll (int[]) - nuevo : 5ms
+Tiempo de containsAll (int[]) - nuevo : 4ms
+Tiempo de containsAll (int[]) - nuevo : 2ms
+Tiempo de containsAll (int[]) - nuevo : 2ms
+
+Tiempo de containsAll (int[]) - trove : 2ms
+Tiempo de containsAll (int[]) - trove : 2ms
+Tiempo de containsAll (int[]) - trove : 3ms
+Tiempo de containsAll (int[]) - trove : 2ms
+Tiempo de containsAll (int[]) - trove : 2ms
+
+Tiempo de containsAll (Collection) - nuevo : 9ms
+Tiempo de containsAll (Collection) - nuevo : 5ms
+Tiempo de containsAll (Collection) - nuevo : 4ms
+Tiempo de containsAll (Collection) - nuevo : 9ms
+Tiempo de containsAll (Collection) - nuevo : 4ms
+
+Tiempo de containsAll (Collection) - trove : 4ms
+Tiempo de containsAll (Collection) - trove : 4ms
+Tiempo de containsAll (Collection) - trove : 6ms
+Tiempo de containsAll (Collection) - trove : 3ms
+Tiempo de containsAll (Collection) - trove : 3ms
+
+Tiempo de removeAll - jdk : 16ms
+Tiempo de removeAll - jdk : 16ms
+Tiempo de removeAll - jdk : 28ms
+Tiempo de removeAll - jdk : 16ms
+Tiempo de removeAll - jdk : 14ms
+
+Tiempo de removeAll - nuevo : 16ms
+Tiempo de removeAll - nuevo : 14ms
+Tiempo de removeAll - nuevo : 22ms
+Tiempo de removeAll - nuevo : 33ms
+Tiempo de removeAll - nuevo : 28ms
+
+Tiempo de removeAll - trove : 4ms
+Tiempo de removeAll - trove : 4ms
+Tiempo de removeAll - trove : 1ms
+Tiempo de removeAll - trove : 1ms
+Tiempo de removeAll - trove : 1ms
+
+Tiempo de retainAll - jdk : 22ms
+Tiempo de retainAll - jdk : 23ms
+Tiempo de retainAll - jdk : 23ms
+Tiempo de retainAll - jdk : 23ms
+Tiempo de retainAll - jdk : 22ms
+
+Tiempo de retainAll - nuevo : 33ms
+Tiempo de retainAll - nuevo : 40ms
+Tiempo de retainAll - nuevo : 22ms
+Tiempo de retainAll - nuevo : 67ms
+Tiempo de retainAll - nuevo : 54ms
+
+Tiempo de retainAll - trove : 27ms
+Tiempo de retainAll - trove : 24ms
+Tiempo de retainAll - trove : 50ms
+Tiempo de retainAll - trove : 23ms
+Tiempo de retainAll - trove : 22ms
+
